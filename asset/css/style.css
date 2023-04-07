@@ -1,0 +1,264 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    list-style: none;
+    text-decoration: none !important;
+   
+}
+.font-cormo{
+    font-family: 'Cormorant';
+}
+.font-heebo{
+    font-family: 'Heebo';
+}
+.modal{
+  display: flex;
+  z-index: 888888888888888 !important;
+}
+.sticky{
+  position: sticky !important;
+  top:0 !important;
+  background-color: white;
+  animation:loop 2s linear;
+}
+@keyframes loop{
+  0%{
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+header{
+    position: absolute;
+    top:0;
+    z-index: 8576757;
+    width:100%;
+}
+.l-s{letter-spacing: .2rem !important;}
+li a{color:var(--bs-c-black);}
+.c{color:var(--bs-c-black) !important;}
+.b{color:var(--bs-b-burly);}
+.l-p{color:var(--bs-l-pink);}
+.fs-90{font-size: 90px;}
+.qu{font-family: 'Quentin';}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .CH.swiper-slide img {
+    display: block;
+    max-width: 20% ;
+  }
+  
+  .p-8{padding:8% 0px !important;}
+ .pt-7{padding-top: 7%;}
+ .pb-5{padding-bottom: 5%;}
+
+ .CH img {
+  position: absolute !important;
+  top: 68% !important;
+  left: 54% !important;
+}
+.white-choco{background-image: url(../images/main-home-video-button.jpg); 
+background-repeat: no-repeat; background-size: cover;background-attachment: fixed;}
+
+.bg-p{background-color: var(--bg-p);}
+  .bg-img{
+    background-image: url(../images/h1-rev-img1-2.jpg);
+    background-size: cover;
+  }
+  .bg-img1{
+    background-image: url(../images/h1-rev-img3.jpg);
+    background-size: cover;
+  }
+  .bg-img2{
+    background-image: url(../images/h1-rev-img2.jpg);
+    background-size: cover;
+  }
+  .chocolate span{
+    position: absolute;
+   left:51%;
+   top:67%;
+  } 
+  .ch::after{
+    content: "";
+    position: absolute;
+    height:70%;
+    top:-30px;
+    left:50%;
+    border-left: 1px solid rgba(36, 36, 35, 0.253); 
+  }
+  .t{transition: all .4s linear !important;}
+  .o-h{overflow: hidden;}
+  .choco-img:hover img{
+    transform:scale(1.1);
+    transition: all .4s linear !important;
+  }
+
+.box{
+  position: absolute;
+  left:35%;
+  top:50%;
+  overflow: hidden;
+}
+.choco-img:hover .box{
+  display: block !important;
+  transition: all .4s linear !important;
+}
+.tr-dsc{
+  position: absolute;
+  bottom:10%;
+  left:7%;
+}
+.tru:hover img{
+  transform:scale(1.1);
+  transition: all .4s linear !important;
+}
+.swiss {
+  background: url(../images/h1-background-img1.jpg) !important;
+  background-size: cover !important;
+
+}
+body{
+  overflow-x: hidden;
+}
+.f{
+  background-color: var(--bs-b-burly);
+  color:var(--bs-white);
+}
+
+.pra span {
+  position: absolute;
+  right: 25%;
+  top: 43%;
+}
+.sweetnesss h2 span{
+  position: absolute;
+  right:31%;
+  bottom: -21%;
+}
+.g-im i{
+  position: absolute;
+  top:50%;
+  left:50%;
+ display: none ;
+}
+
+.gallery:hover .g-im i{
+  display: block !important;
+  color:white;
+  transition: all .4s linear;
+}
+.gallery:hover img{
+  opacity:0.9;
+  transition: all .4s linear;
+}
+
+
+/* images */
+.i img {
+  max-width: 440px !important;
+}
+.ab img {
+  animation: movee 4s linear infinite;
+
+}
+@keyframes movee {
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(-10px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+  
+}
+ol, ul {
+  padding-left:0 !important;
+}
+.services{background-image: url('../images/h1-testimonials-bg-img1.jpg');
+  background-repeat: no-repeat;
+}
+.cake-title{
+  display: none;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+   background-image: url("../images/h1-iwt-hover.png");
+  background-repeat: no-repeat;
+  text-align: center;
+  top:0%;
+  left: 0;
+  transition: all 0.4s linear !important;
+
+}
+
+.cake-title h2{
+  padding-top:40%;
+}
+.cake:hover .cake-title h2{
+animation: crunchy 0.4s linear;
+} 
+@keyframes crunchy
+{
+  0%{
+    padding-top: 50%;
+    opacity: 0;
+  }
+  100%{
+    padding-top: 40%;
+    opacity: 1;
+  }
+}
+.cake:hover .cake-title{
+  opacity: 1;
+  display: block;
+  transition: all 0.3s linear;
+} 
+.modal-dialog .modal-content{
+  background-image: url(../images/h1-offset-image.png) !important;
+  background-repeat: no-repeat !important;
+  background-position: left top;
+}
+.offcanvas{
+  background-image: url(../images/h1-offset-image.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+ 
+}
+.offcanvas-body {
+  color:var(--bs-b-burly) !important;
+}
+
+.g-im{
+  overflow: hidden !important;
+}
+.g-im img{
+  transition: all 0.4s linear;
+}
+.g-im:hover img{
+  transform: scale(1.1);
+  transition: all 0.4s linear;
+}
+.h1-img:hover img{
+  transform: translateY(-10%);
+  transition: all .4s linear;
+}
+.h1-img img{
+  transition: all .4s linear;
+}
